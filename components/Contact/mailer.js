@@ -2,11 +2,11 @@ import emailjs from "@emailjs/browser";
 
 const mail = ({ name, email, message }) =>
   emailjs.send(
-    "service_9361nvo",
-    "template_t7z53yj",
+    process.env.NEXT_PUBLIC_SERVICE_ID,
+    process.env.NEXT_PUBLIC_TEMPLATE_ID,
     { to_name: "Tayyab Shahid", from_name: name, email, message },
     {
-      publicKey: "Y1OzAOLtKIn9xw6VS",
+      publicKey: process.env.NEXT_PUBLIC_PUBLIC_ID,
       limitRate: {
         throttle: 10000, // 10s
       },
