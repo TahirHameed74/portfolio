@@ -26,8 +26,6 @@ const Meta = () => (
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:title" content={METADATA.title} />
     <meta property="twitter:description" content={METADATA.description} />
-    <meta property="twitter:site" content={METADATA.twitterHandle} />
-    <meta name="twitter:creator" content={METADATA.twitterHandle} />
     <meta property="twitter:url" content={METADATA.siteUrl} />
     <meta property="twitter:image" content={METADATA.image} />
 
