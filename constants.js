@@ -3,7 +3,7 @@ export const METADATA = {
   title: "Portfolio | Tayyab Shahid",
   description:
     "Tayyab Shahid is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  siteUrl: "https://www.shubhporwal.me/",
+  siteUrl: "https://tayyab-portfolio-eight.vercel.app/",
   keywords: [
     "Tayyab Shahid",
     "Frontend Engineer",
