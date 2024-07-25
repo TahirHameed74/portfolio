@@ -14,7 +14,7 @@ export const METADATA = {
     "Folio",
   ].join(", "),
   image:
-    "https://res.cloudinary.com/dywdhyojt/image/upload/v1721378510/social-preview.png",
+    "https://drive.google.com/file/d/1iXy3SXh09gEsAm9E73Hu7s40LNxtcHNH/view?usp=sharing",
   language: "English",
   themeColor: "#000000",
 };
