@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import { useMotionValueEvent, useScroll, motion } from "framer-motion";
 import DotPattern from "../DotPattern/DotPattern";
 import { cn } from "utils/cn";
+import clsx from "clsx";
 
 const StickyScroll = ({ contentItems }) => {
   const [activeCard, setActiveCard] = useState(0);
@@ -95,7 +96,13 @@ const StickyScroll = ({ contentItems }) => {
           </div>
         </div>
         <motion.div
-          className={`hidden lg:block h-60 w-80 rounded-md sticky top-10 overflow-hidden !bg-[${contentItems[activeCard].color}]`}
+          style={{
+            backgroundColor: contentItems[activeCard].color,
+          }}
+          className={clsx(
+            `hidden lg:block h-60 w-80 rounded-md sticky top-10 overflow-hidden`,
+            contentItems[activeCard].color
+          )}
         >
           {contentItems[activeCard].content ?? null}
         </motion.div>
