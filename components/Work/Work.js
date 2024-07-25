@@ -11,35 +11,55 @@ const Work = ({ isDesktop }) => {
   const tabItems = useMemo(
     () => [
       {
-        title: "Dukaan",
-        value: "dukaan",
+        title: "Toptal",
+        value: "Toptal",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
-            contentItems={WORK_CONTENTS.DUKAAN}
+            contentItems={WORK_CONTENTS.Toptal}
           />
         ),
       },
       {
-        title: "Aviate",
+        title: "Micani Labs",
+        value: "MicaniLabs",
+        content: (
+          <StickyScroll
+            isDesktop={isDesktop}
+            contentItems={WORK_CONTENTS.MicaniLabs}
+          />
+        ),
+      },
+      {
+        title: "Iiinigence",
         value: "Aviate",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
-            contentItems={WORK_CONTENTS.AVIATE}
+            contentItems={WORK_CONTENTS.IIINIGENCE}
           />
         ),
       },
       {
-        title: "Spacenos",
+        title: "Esketchers",
         value: "spacenos",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
-            contentItems={WORK_CONTENTS.SPACENOS}
+            contentItems={WORK_CONTENTS.ESKETCHERS}
           />
         ),
       },
+      // {
+      //   title: "Agile Tribe",
+      //   value: "AgileTribe",
+      //   content: (
+      //     <StickyScroll
+      //       isDesktop={isDesktop}
+      //       contentItems={WORK_CONTENTS.AGILETRIBE}
+      //     />
+      //   ),
+      // },
     ],
     [isDesktop]
   );

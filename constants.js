@@ -1,12 +1,11 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "Tayyab Shahid",
+  title: "Portfolio | Tayyab Shahid",
   description:
-    "Shubh Porwal is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
+    "Tayyab Shahid is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubh731",
   keywords: [
-    "Shubh Porwal",
+    "Tayyab Shahid",
     "Frontend Engineer",
     "React Native Developer",
     "Software Engineer",
@@ -52,28 +51,24 @@ export const TYPED_STRINGS = [
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: tayyab.shahid7@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/tayyab-shahid-478574134/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
-  },
-  {
-    name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
-  },
-  {
-    name: "twitter",
-    url: "https://twitter.com/shubh731",
+    url: "https://github.com/tayyabshahid7",
   },
 ];
 
 export const SKILLS = {
   languagesAndTools: [
+    "django",
+    "angular",
+    "react",
+    "next",
     "html",
     "css",
     "javascript",
@@ -89,7 +84,8 @@ export const SKILLS = {
   librariesAndFrameworks: [
     "react",
     "redux",
-    "nextjs",
+    "java",
+    "next",
     "tailwindcss",
     "styledcomponents",
     "antdesign",
@@ -101,41 +97,77 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "Airbnb",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
-  },
-  {
-    name: "Medium",
-    image: "/projects/medium.webp",
-    blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
-  },
-  {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
+    name: "Thesia Ai - Personal AI Character Library",
+    image: "/projects/thesiaAi.png",
+    blurImage: "/projects/blur/figgen-blur.jpg",
     description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
-    gradient: ["#000066", "#6699FF"],
-    url: "https://shubh73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
+      "Create and chat to historical icons, philosophers, cartoon characters or your ideal digital companion.",
+    gradient: ["#b3a7f6", "#f4f0ea"],
+    url: "https://thesia.ai/",
+    tech: ["next", "typescript", "figma", "tailwindcss"],
   },
   {
-    name: "Tesla",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/shubh73/tesla",
-    tech: ["react"],
+    name: "Gclub",
+    image: "/projects/gclub.png",
+    blurImage: "/projects/blur/myokr-blur.jpg",
+    description: "Getaway To Bespoke Living",
+    gradient: ["#1f3527", "#000000"],
+    url: "https://www.gclubs.com/",
+    tech: ["react", "next", "gsap", "tailwindcss"],
+  },
+  {
+    name: "RideTo - Platform For Motorcycle Training",
+    image: "/projects/rideTo.png",
+    blurImage: "/projects/blur/dlt-website-blur.jpg",
+    description: "Book Trusted Motorcycle Training",
+    gradient: ["#2ccead", "#272714"],
+    url: "https://www.rideto.com/",
+    tech: ["figma", "react", "gsap"],
+  },
+  {
+    name: "New Wave Learning",
+    image: "/projects/newave.png",
+    blurImage: "/projects/blur/dl-unify-blur.jpg",
+    description: "The communication skills specialists",
+    gradient: ["#2abbd6", "#0c5370"],
+    url: "https://www.newwavelearning.com/",
+    tech: ["tailwindcss", "react", "gsap", "figma"],
+  },
+  {
+    name: "Machine X",
+    image: "/projects/machineX.png",
+    blurImage: "/projects/blur/ngx-quill-upload-blur.jpg",
+    description: "NPM Package for Quill JS uploads from Angular",
+    gradient: ["#c1d5e4", "#153a4f"],
+    url: "https://machine-4ufnedns0-tayyabesketchersgmailcoms-projects.vercel.app",
+    tech: ["npm", "angular", "typescript", "figma"],
+  },
+  {
+    name: "My Last Speech",
+    image: "/projects/lastspeech.png",
+    blurImage: "/projects/blur/huminos-blur.jpg",
+    description: "Turn a sad occasion into a celebration of life.",
+    gradient: ["#17007B", "#3A2C79"],
+    url: "https://mylastspeech-md0n3wj5q-tayyabesketchersgmailcoms-projects.vercel.app",
+    tech: ["react", "redux", "sass", "svg", "figma"],
+  },
+  {
+    name: "AKGEC - College Website",
+    image: "/projects/akgec.jpg",
+    blurImage: "/projects/blur/akgec-blur.jpg",
+    description: "Contributed in overall design and development",
+    gradient: ["#5E4C06", "#746528"],
+    url: "https://www.akgec.ac.in/",
+    tech: ["typescript", "html", "sass"],
+  },
+  {
+    name: "BDC 2018 Web Portal",
+    image: "/projects/bdc18.jpg",
+    blurImage: "/projects/blur/bdc18-blur.jpg",
+    description: "Built the portal from zero to production 🚀",
+    gradient: ["#470700", "#712A23"],
+    url: "https://bdc2018.ayushsingh.net/",
+    tech: ["typescript", "html", "css"],
   },
 ];
 
@@ -185,88 +217,194 @@ export const PROJECTS = [
 // ];
 
 export const WORK_CONTENTS = {
-  DUKAAN: [
+  Toptal: [
     {
-      title: "Dukaan",
+      showBg: true,
+      title: "Toptal",
       description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+        "Toptal is an exclusive network of the top freelance software developers, designers, " +
+        "finance experts, product managers, and project managers ni the world. " +
+        "Top companies hire Toptal freelancers for their most important projects.",
       content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Revolutionizing commerce, one click at a time
+        <div className="h-full w-full flex items-center justify-center text-white">
+          <img src="/toptal.png" />
         </div>
       ),
     },
     {
-      title: "Transformation",
+      title: "Job Description",
       description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
+        "At Toptal, we thoroughly screen our developers to ensure we only match you with talent of the highest caliber. " +
+        "Of the more than 100,000 people who apply to join the Toptal network each year, fewer than 3% " +
+        "make the cut. You’ll work with engineering experts (never generalized recruiters or HR reps) " +
+        "to understand your goals, technical needs, and team dynamics. The end result: expert vetted talent from our " +
+        "network, custom matched to fit your business needs.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
+          Senior Software Engineer
         </div>
       ),
     },
     {
-      title: "Evolution",
+      title: "Skills",
       description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
+        "React, Angular, Vue, Django, Rest Framework, SAS, AWS, Nuxt.JS and NextJs.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
-        </div>
-      ),
-    },
-    {
-      title: "Optimization",
-      description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
-        </div>
-      ),
-    },
-  ],
-  AVIATE: [
-    {
-      title: "Aviate",
-      description:
-        "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Finding the right job isn&apos;t fate, it&apos;s navigation
-        </div>
-      ),
-    },
-    {
-      title: "Innovation",
-      description:
-        "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Developer Intern
+          Senior Software Engineer
         </div>
       ),
     },
   ],
-  SPACENOS: [
+  MicaniLabs: [
     {
-      title: "Spacenos",
+      showBg: true,
+      title: "Micani Labs",
       description:
-        "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+        "Micani Labs is a software development company that builds artificial intelligence (AI)-based chatbot applications. Large language models (LLMs) are being leveraged to build apps that provide companies with more efficient customer service and users with unique companionship experiences.\n" +
+        "\n" +
+        '"Artificial intelligence began with the ancient wish to forge the gods." Machines Who Think',
       content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          We build apps that solve problems for the next billion people
+        <div className="h-full w-full flex items-center justify-center text-white">
+          <img src="/micaniLabs.png" />
         </div>
       ),
     },
     {
-      title: "Trailblazing",
+      title: "Job Description",
       description:
-        "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
+        "Micani Labs is a data-science-driven deep jobs platform helping companies spin up their engineering teams ni the cloud at the push of a button. Based ni UK they are a fully remote company of 900+ people who help connect world-class remote software engineers with world-class companies.\n" +
+        "• Agile Tribe make the remote hiring journey easy and rewarding for both companies and developers. With Agile Tribe, companies can hire pre-vetted, Silicon Valley-caliber remote software talent across 10+ skills ni 35-days. We also democratize opportunities for remote developers from around the world by offering them high-quality software jobs with top US firms.\n" +
+        "• Worked for clients on contract basis on AgileTribe and made many websites from scratch using Figma design.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Web Developer Intern
+          Senior Software Engineer
+        </div>
+      ),
+    },
+    {
+      title: "Skills",
+      description:
+        "React, Angular, Vue, Django, Rest Framework, SASS, NuxtJS, AWS and NextJs.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Senior Software Engineer
+        </div>
+      ),
+    },
+  ],
+  IIINIGENCE: [
+    {
+      showBg: false,
+      color: "#121111",
+      title: "iiinigence",
+      description:
+        "Iiinigence love ot face new challenges. Iiinigence have worked with various businesses in " +
+        "many different industries from small businesses all the way ot fortune 500 and " +
+        "government organisations and have had the pleasure of sharing our innovative, integrative and imaginative intelligence. Iiinigence " +
+        "would love to do the same and partner up with you today ni fulfilling your vision, " +
+        "your goals and desires ni facing new challenges and bringing new values to your business and your consumers.\n" +
+        "• Working as a full stack web developer at iiinigence.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white">
+          <img src="/iiinigence.png" />
+        </div>
+      ),
+    },
+    {
+      title: "Job Description",
+      description:
+        "Develop, test, and maintain scalable and high-performing web applications using React, Vue, Angular, Next.js, and NuxtJS. Implement responsive and visually appealing user interfaces with TailwindCSS. Build and maintain server-side applications and RESTful APIs using Django. Collaborate with cross-functional teams to define, design, and ship new features. Ensure the technical feasibility of UI/UX designs. Optimize applications for maximum speed and scalability. Participate in code reviews to maintain code quality and share knowledge with the team. Troubleshoot and debug complex issues. Stay updated with the latest industry trends and technologies to ensure our solutions remain cutting-edge.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Senior Software Engineer
+        </div>
+      ),
+    },
+    {
+      title: "Skills",
+      description:
+        "React, Vue, Angular, TailwindCss, NextJs, Django, AWS and NuxtJS.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Senior Software Engineer
+        </div>
+      ),
+    },
+  ],
+  ESKETCHERS: [
+    {
+      showBg: false,
+      color: "#ffffff",
+      title: "Esketchers",
+      description:
+        "Esketchers helps startups and established technology companies greatly increase their software engineering capacity. Our expertise, organizational knowledge, and enthusiastic approach help you innovate, creating software that outpaces the competition and sets the industry standard.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white">
+          <img src="/esketchers.png" />
+        </div>
+      ),
+    },
+    {
+      title: "Job Description",
+      color: "#000000",
+      description:
+        "Design, develop, and maintain web applications using React, Vue, Angular, Next.js, and NuxtJS. Create and implement responsive and visually appealing user interfaces with TailwindCSS. Develop robust server-side applications using Django, Flask, FastAPI, and Python. Design and build RESTful APIs. Collaborate with cross-functional teams including designers, product managers, and other developers to define and implement new features. Optimize applications for maximum speed and scalability. Conduct code reviews to ensure high code quality and shared knowledge within the team. Troubleshoot and debug complex technical issues. Keep abreast of new technologies and industry best practices to enhance development processes and application performance.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Senior Software Engineer
+        </div>
+      ),
+    },
+    {
+      title: "Skills",
+      color: "#000000",
+      description:
+        "Angular, React, Vue, AWS TailwindCss, NextJs, Django, Python, Flask, FastApi and NuxtJS.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Senior Software Engineer
+        </div>
+      ),
+    },
+  ],
+  AGILETRIBE: [
+    {
+      showBg: false,
+      color: "#ffffff",
+      title: "Agile Tribe",
+      description:
+        "Agile Tribe is a data-science-driven deep jobs platform helping companies spin up their " +
+        "engineering teams ni the cloud at the push of a button. Based ni UK they are a fully remote company " +
+        "of 900+ people who help connect world-class remote software engineers with world-class companies.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white">
+          <img src="/agileTribe.png" />
+        </div>
+      ),
+    },
+    {
+      title: "Job Description",
+      color: "#000000",
+      description:
+        "Agile Tribe make the remote hiring journey easy and rewarding for both " +
+        "companies and developers. With Agile Tribe, companies can hire pre-vetted, Silicon Valley-caliber remote software " +
+        "talent across 10+ skills ni 35-days. We also democratize opportunities for remote developers " +
+        "from around the world by offering them high-quality software jobs with top US firms.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Senior Software Engineer
+        </div>
+      ),
+    },
+    {
+      title: "Skills",
+      color: "#000000",
+      description:
+        "Angular, React, Vue, AWS TailwindCss, NextJs, Django, Python, Flask, FastApi and NuxtJS.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Senior Software Engineer
         </div>
       ),
     },
