@@ -139,7 +139,7 @@ export const PROJECTS = [
     blurImage: "/projects/blur/ngx-quill-upload-blur.jpg",
     description: "NPM Package for Quill JS uploads from Angular",
     gradient: ["#c1d5e4", "#153a4f"],
-    url: "https://machine-4ufnedns0-tayyabesketchersgmailcoms-projects.vercel.app",
+    url: "https://machine-x.vercel.app/#/",
     tech: ["npm", "angular", "typescript", "figma"],
   },
   {
