@@ -148,7 +148,7 @@ export const PROJECTS = [
     blurImage: "/projects/blur/huminos-blur.jpg",
     description: "Turn a sad occasion into a celebration of life.",
     gradient: ["#17007B", "#3A2C79"],
-    url: "https://mylastspeech-md0n3wj5q-tayyabesketchersgmailcoms-projects.vercel.app",
+    url: "https://mylastspeech.vercel.app/",
     tech: ["react", "redux", "sass", "svg", "figma"],
   },
   {
