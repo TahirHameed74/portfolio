@@ -49,13 +49,17 @@ export const TYPED_STRINGS = [
 ];
 
 export const SOCIAL_LINKS = [
+  // {
+  //   name: "mail",
+  //   url: "mailto: tayyab.shahid7@gmail.com",
+  // },
+  // {
+  //   name: "linkedin",
+  //   url: "https://www.linkedin.com/in/tayyab-shahid-478574134/",
+  // },
   {
-    name: "mail",
-    url: "mailto: tayyab.shahid7@gmail.com",
-  },
-  {
-    name: "linkedin",
-    url: "https://www.linkedin.com/in/tayyab-shahid-478574134/",
+    name: "upwork",
+    url: "https://www.upwork.com/freelancers/~01b11727496e5def17?mp_source=share",
   },
   {
     name: "github",
