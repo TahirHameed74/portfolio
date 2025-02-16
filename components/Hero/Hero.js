@@ -62,52 +62,50 @@ const Hero = () => {
   }, [lottie]);
 
   return (
-    <section
-      ref={sectionRef}
-      id={MENULINKS[0].ref}
-      className="w-full flex md:items-center py-8 2xl:container mx-auto xl:px-20 md:px-12 px-4 min-h-screen relative mb-24"
-      style={{ opacity: 0 }}
-    >
-      <style global jsx>
-        {`
-          .typed-cursor {
-            font-size: 2rem;
-          }
-        `}
-      </style>
-      <div className="flex flex-col pt-40 md:pt-0 select-none">
-        <h5
-          className={`${styles.intro} font-mono font-medium text-indigo-light staggered-reveal`}
-        >
-          Hi, my name is
-        </h5>
-        <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
-          <span className={`relative ${styles.emphasize} staggered-reveal`}>
-            Tayyab
-          </span>
-          <span className="staggered-reveal"> Shahid</span>
-        </h1>
-        <p>
-          <span
-            ref={typedElementRef}
-            className="staggered-reveal text-3xl text-gray-light-3 font-mono leading-relaxed"
-          />
-        </p>
-        <div className="staggered-reveal">
-          <Profiles />
-        </div>
-        <div className="staggered-reveal pt-4">
-          <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
-            Let&apos;s Talk
-          </Button>
-        </div>
-      </div>
-      <div
-        className="absolute invisible w-4/12 bottom-1.5 lg:visible lg:right-12 2xl:right-16"
-        ref={lottieRef}
-      />
-    </section>
-  );
+		<section
+			ref={sectionRef}
+			id={MENULINKS[0].ref}
+			className="w-full flex md:items-center py-8 2xl:container mx-auto xl:px-20 md:px-12 px-4 min-h-screen relative mb-24"
+			style={{ opacity: 0 }}>
+			<style global jsx>
+				{`
+					.typed-cursor {
+						font-size: 2rem;
+					}
+				`}
+			</style>
+			<div className="flex flex-col pt-40 md:pt-0 select-none">
+				<h5
+					className={`${styles.intro} font-mono font-medium text-indigo-light staggered-reveal`}>
+					Hi, my name is
+				</h5>
+				<h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
+					<span className={`relative ${styles.emphasize} staggered-reveal`}>
+						Tahir
+					</span>
+					<span className="staggered-reveal"> Hameed</span>
+				</h1>
+				<p>
+					<span
+						ref={typedElementRef}
+						className="staggered-reveal text-3xl text-gray-light-3 font-mono leading-relaxed"
+					/>
+				</p>
+				<div className="staggered-reveal">
+					<Profiles />
+				</div>
+				<div className="staggered-reveal pt-4">
+					<Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
+						Let&apos;s Talk
+					</Button>
+				</div>
+			</div>
+			<div
+				className="absolute invisible w-4/12 bottom-1.5 lg:visible lg:right-12 2xl:right-16"
+				ref={lottieRef}
+			/>
+		</section>
+	);
 };
 
 export default Hero;
