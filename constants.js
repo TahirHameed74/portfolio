@@ -3,7 +3,7 @@ export const METADATA = {
 	title: "Portfolio | Tahir Hameed",
 	description:
 		"Tahir Hameed is a passionate Full Stack Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-	siteUrl: "https://tayyab-portfolio-eight.vercel.app/",
+	siteUrl: "https://tahir.trontech.ai/",
 	keywords: [
 		"Tahir Hameed",
 		"Frontend Engineer",
